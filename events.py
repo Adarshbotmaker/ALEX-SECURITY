@@ -1,6 +1,6 @@
 from telethon import events
 
-from Natsuki import telethn
+from alex robot import telethn
 
 
 def register(**args):
