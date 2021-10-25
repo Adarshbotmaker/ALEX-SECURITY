@@ -34,7 +34,7 @@ from telegram.ext import (
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 
-from Natsuki import (
+from alex robot import (
     ALLOW_EXCL,
     BL_CHATS,
     CERT_PATH,
@@ -56,29 +56,29 @@ from Natsuki import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from Natsuki.modules import ALL_MODULES
-from Natsuki.modules.helper_funcs.alternate import typing_action
-from Natsuki.modules.helper_funcs.chat_status import is_user_admin
-from Natsuki.modules.helper_funcs.misc import paginate_modules
-from Natsuki.modules.helper_funcs.readable_time import get_readable_time
+from alex robot.modules import ALL_MODULES
+from alex robot.modules.helper_funcs.alternate import typing_action
+from alex robot.modules.helper_funcs.chat_status import is_user_admin
+from alex robot.modules.helper_funcs.misc import paginate_modules
+from alex robot.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-👋 Hey There, My Name is 𝗡𝗮𝘁𝘀𝘂𝗸𝗶. 
+👋 Hey There, My Name is ALEX ROBOT
 I'm a Powerfull Group Manager Bot With Cool Modules. feel free to add me to your groups!
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="Natsuki News 🙋‍♂️", url="https://t.me/Natsuki_Updates"
+            text="Natsuki News 🙋‍♂️", url="https://t.me/alex_userbot" 
         ),
         InlineKeyboardButton(
-            text="Support Group 💬", url="https://t.me/NatsukiSupport_Official"
+            text="Support Group 💬", url="alex_userbot_support"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="Source 🗒", url="Github.com/Sadew451"
+            text="Source 🗒", https://t.me/joinchat/feG28jpfE1IzMWJl"
         ),
         InlineKeyboardButton(
             text="Command Help ❓", callback_data="help_back"
@@ -87,12 +87,12 @@ buttons = [
     [
         InlineKeyboardButton(
             text="➕ Add To Me Your Group ➕",
-            url="t.me/TheNatsukiBot?startgroup=true",
+            url="t.me/alex_securety_bot?startgroup=true",
         ),
     ],
 ]
 
-NATSUKI_IMG = "https://telegra.ph/file/2d0fa7e07eb1fe3983aba.jpg"
+Alex_IMG = "https://telegra.ph/file/4597a70c7d7505f557c24.jpg"
 
 HELP_STRINGS = f"""
 *Main Commands :* [🤖](https://telegra.ph/file/2d0fa7e07eb1fe3983aba.jpg)
@@ -109,10 +109,7 @@ HELP_STRINGS = f"""
 )
 
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-You can donate to the original writer's of the Base code,
-Support them  [SADEW JAYASEKARA](t.me/IM_SADEW)"""
-
+DONATE_STRING = """ SORRY DONATION IS NOT AVILABE NOW
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -367,7 +364,7 @@ def help_button(update, context):
 
 
 @run_async
-def Natsuki_about_callback(update, context):
+def Alex_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
