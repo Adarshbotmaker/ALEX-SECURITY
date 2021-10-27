@@ -182,6 +182,11 @@
          "description": "ID of the sticker you want to use when banning people.",
          "required": false,
          "value": ""
+      },     
+      "MONGO_DB_URI": {
+         "description": "Create A Database In Mongodb And Get URL",
+         "required": true,
+         "value": ""
       },
       "WALL_API": {
          "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
