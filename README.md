@@ -5,7 +5,7 @@ CRΣDIT / PΔRTΣΠΣRS - ΠΔSTUҜI ΩШΠΣR ΔΠD ΔΠҜI ∇ΣCTΩR βΩT Ω
 
 ⅅℰℙℒᎾᎽ 
 
-ЅᎾᎾℕ 🔜
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Adarshbotmaker/ALEX-SECURITY.git)
 
 
 🔥𝙿𝙻𝙴𝙰𝚂𝙴 𝙵𝙾𝚁𝙺 𝙰𝚃 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 𝚁𝙸𝚂𝙺👿
