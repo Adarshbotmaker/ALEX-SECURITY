@@ -6,3 +6,20 @@
          "bot",
          "AlexSecurityBot"
       ], 
+   "repository": "https://github.com/Adarshbotmaker/ALEX-SECURITY",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
+    }     
+  ],      
