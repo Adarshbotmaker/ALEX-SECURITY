@@ -19,7 +19,7 @@ class Config(object):
     API_HASH = "awoo"
     TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID =   # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "@alexuserbot_yourdad"
+    OWNER_USERNAME = "@adarshop_xd"
     SUPPORT_CHAT = "@alex_userbot_support"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         
